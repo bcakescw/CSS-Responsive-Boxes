@@ -1,3 +1,14 @@
 body {
   background: papayawhip;
 }
+
+
+.c, .d, .e  {
+  margin: 0.5em;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 25vh;
+  min-width: 20vh;
+  justify-content: center;
+}

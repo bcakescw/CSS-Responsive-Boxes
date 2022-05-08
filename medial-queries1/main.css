@@ -1,3 +1,40 @@
-body {
-  background: blanchedalmond;
+@media (min-width: 400px) {
+  body {
+    background-color: blanchedalmond;
+    justify-content: space-between;
+  }
+}
+
+.container {
+  display:flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div {
+  border: 1px solid black;
+}
+
+@media (min-height: 400px) {
+.a {
+  display: inline-flex;
+  flex-wrap: wrap;
+  min-height: 20vh;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 100px;
+  margin: 0.25em;
+}
+
+.b, .c {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 75vh;
+  font-size: 100px;
+  margin: 0.25em;
+  text-align: center;
+}
 }
